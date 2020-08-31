@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/src/main/kotlin/org/zhd/crm/server/controller/erp/OverdueController.kt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/kotlin/org/zhd/crm/server/model/crm/MenuAuth.kt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/kotlin/org/zhd/crm/server/repository/crm/AuthRepository.kt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/kotlin/org/zhd/crm/server/repository/erp/UnDeliveryRepository.kt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/kotlin/org/zhd/crm/server/repository/statistic/OverdueRepository.kt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/kotlin/org/zhd/crm/server/repository/statistic/SalePerformanceNewCustomerRepository.kt" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

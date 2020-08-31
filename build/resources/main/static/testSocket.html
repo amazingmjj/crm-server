@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>test webSocket</div>
+<div>
+    <input type="text" id="input_num"/>
+    <button class="btn btn-primary" id="btn_create">建立</button>
+    <button class="btn btn-primary" id="btn_send">发送</button>
+</div>
+<script type="text/javascript" src="/files/jquery-3.3.1.min.js"></script>
+<script>
+    var webSocket;
+	$("#btn_create").click(function(event){
+	    var num = $('#input_num').val();
+		// 指定webSocket路径
+		console.log(num);
+		webSocket = new WebSocket('ws://localhost:7786/webSocket/' + num);
+        //打开事件
+        webSocket.onopen = function() {
+            console.log("Socket 已打开");
+        };
+        //获得消息事件
+        webSocket.onmessage = function(event) {
+            console.log(">>>接收到消息:" + event.data)
+		};
+        //关闭事件
+        webSocket.onclose = function() {
+            console.log("Socket已关闭");
+        };
+        //发生了错误事件
+        webSocket.onerror = function() {
+            alert("Socket发生了错误");
+        };
+	});
+	//发送消息
+    $("#btn_send").click(function() {
+        var num = $('#input_num').val();
+        if (webSocket == null) console.log("还没有建立连接");
+        else webSocket.send("这是来自客户端[" + num + "]的消息" + location.href + new Date());
+    });
+</script>
+</body>
+</html>

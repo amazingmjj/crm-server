@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ad6eb01-7119-48bd-a017-75c8c6791aa0" name="Default Changelist" comment="客户销量图表">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/zhd/crm/server/GlobalConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/zhd/crm/server/GlobalConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="159" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="crm-server" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="crm-server" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="crm-server" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="crm-server" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="crm-server" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="crm-server" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="deployment" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="crm-server" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.3.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZpJbA8aWEdWTpYDlIeHbXOxvVn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="org.zhd.crm.server.model.projection.erp" />
+      <recent name="org.zhd.crm.server.model.statistic" />
+      <recent name="org.zhd.crm.server.repository.statistic" />
+      <recent name="org.zhd.crm.server.repository.erp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_idea\crmserver\src\main\kotlin\org\zhd\crm\server\model\projection\statistic" />
+      <recent name="D:\workspace_idea\crmserver\src\main\kotlin\org\zhd\crm\server\repository\statistic" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.crmserver [bootRun]">
+    <configuration name="crmserver [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="crmserver [cargoRedeployRemote]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="cargoRedeployRemote" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="crmserver [classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="classes" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="crmserver [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="crmserver [war]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="war" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.crmserver [bootRun]" />
+      <item itemvalue="Gradle.crmserver [cargoRedeployRemote]" />
+      <item itemvalue="Gradle.crmserver [classes]" />
+      <item itemvalue="Gradle.crmserver [clean]" />
+      <item itemvalue="Gradle.crmserver [war]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.crmserver [bootRun]" />
+        <item itemvalue="Gradle.crmserver [cargoRedeployRemote]" />
+        <item itemvalue="Gradle.crmserver [war]" />
+        <item itemvalue="Gradle.crmserver [classes]" />
+        <item itemvalue="Gradle.crmserver [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\lenovo\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspace_idea\crmserver" />
+          <option name="myCopyRoot" value="D:\workspace_idea\crmserver" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspace_idea\crmserver" />
+          <option name="myCopyRoot" value="D:\workspace_idea\crmserver" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ad6eb01-7119-48bd-a017-75c8c6791aa0" name="Default Changelist" comment="" />
+      <created>1585530170799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585530170799</updated>
+    </task>
+    <task id="LOCAL-00067" summary="销售新增客户明细表">
+      <created>1593482462480</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1593482462480</updated>
+    </task>
+    <task id="LOCAL-00068" summary="crm新绩效">
+      <created>1593509722710</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1593509722710</updated>
+    </task>
+    <task id="LOCAL-00069" summary="crm新绩效">
+      <created>1593597245325</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1593597245325</updated>
+    </task>
+    <task id="LOCAL-00070" summary="crm新绩效">
+      <created>1593597502029</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1593597502029</updated>
+    </task>
+    <task id="LOCAL-00071" summary="crm新绩效">
+      <created>1593661384307</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1593661384308</updated>
+    </task>
+    <task id="LOCAL-00072" summary="crm超期未提权限">
+      <created>1593758787877</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1593758787877</updated>
+    </task>
+    <task id="LOCAL-00073" summary="crm客户合并取 老客户，起始时间取早的">
+      <created>1594004618095</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1594004618096</updated>
+    </task>
+    <task id="LOCAL-00074" summary="crm超期未提">
+      <created>1594167867043</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1594167867043</updated>
+    </task>
+    <task id="LOCAL-00075" summary="crm特殊权限">
+      <created>1594281081142</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1594281081143</updated>
+    </task>
+    <task id="LOCAL-00076" summary="修改客户关联主体写入修改记录">
+      <created>1594346591266</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1594346591267</updated>
+    </task>
+    <task id="LOCAL-00077" summary="修改账号fix">
+      <created>1594630038210</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1594630038211</updated>
+    </task>
+    <task id="LOCAL-00078" summary="crm特殊权限">
+      <created>1594860208389</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1594860208390</updated>
+    </task>
+    <task id="LOCAL-00079" summary="crm特殊权限">
+      <created>1594882530027</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1594882530027</updated>
+    </task>
+    <task id="LOCAL-00080" summary="1.crm记录首次开单时间&#10;2.crm超期未提">
+      <created>1594885175937</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1594885175937</updated>
+    </task>
+    <task id="LOCAL-00081" summary="crm特殊权限">
+      <created>1594949614540</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1594949614540</updated>
+    </task>
+    <task id="LOCAL-00082" summary="crm特殊权限">
+      <created>1595204705023</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1595204705024</updated>
+    </task>
+    <task id="LOCAL-00083" summary="crm特殊权限">
+      <created>1595205825507</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1595205825507</updated>
+    </task>
+    <task id="LOCAL-00084" summary="crm特殊权限">
+      <created>1595221826020</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1595221826020</updated>
+    </task>
+    <task id="LOCAL-00085" summary="crm特殊权限">
+      <created>1595231790551</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1595231790551</updated>
+    </task>
+    <task id="LOCAL-00086" summary="crm特殊权限">
+      <created>1595290784554</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1595290784561</updated>
+    </task>
+    <task id="LOCAL-00087" summary="crm客户地区取县级市">
+      <created>1595292583455</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1595292583455</updated>
+    </task>
+    <task id="LOCAL-00088" summary="crm特殊权限">
+      <created>1595303123791</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1595303123791</updated>
+    </task>
+    <task id="LOCAL-00089" summary="crm特殊权限">
+      <created>1595376859117</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1595376859117</updated>
+    </task>
+    <task id="LOCAL-00090" summary="crm特殊权限">
+      <created>1595382310774</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1595382310774</updated>
+    </task>
+    <task id="LOCAL-00091" summary="客户销量图表">
+      <created>1595398733059</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1595398733059</updated>
+    </task>
+    <task id="LOCAL-00092" summary="客户销量图表">
+      <created>1595401642651</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1595401642651</updated>
+    </task>
+    <task id="LOCAL-00093" summary="客户销量图表">
+      <created>1595408648133</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1595408648133</updated>
+    </task>
+    <task id="LOCAL-00094" summary="客户销量图表">
+      <created>1595549257056</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1595549257056</updated>
+    </task>
+    <task id="LOCAL-00095" summary="crm特殊权限">
+      <created>1595550899460</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1595550899460</updated>
+    </task>
+    <task id="LOCAL-00096" summary="客户销量图表">
+      <created>1595899819511</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1595899819511</updated>
+    </task>
+    <task id="LOCAL-00097" summary="客户销量图表">
+      <created>1595901146825</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1595901146825</updated>
+    </task>
+    <task id="LOCAL-00098" summary="客户销量图表">
+      <created>1595901615717</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1595901615718</updated>
+    </task>
+    <task id="LOCAL-00099" summary="客户销量图表">
+      <created>1595982993134</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1595982993134</updated>
+    </task>
+    <task id="LOCAL-00100" summary="客户销量图表">
+      <created>1595985908543</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1595985908543</updated>
+    </task>
+    <task id="LOCAL-00101" summary="客户销量图表">
+      <created>1595987905819</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1595987905819</updated>
+    </task>
+    <task id="LOCAL-00102" summary="客户销量图表">
+      <created>1596068077027</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1596068077029</updated>
+    </task>
+    <task id="LOCAL-00103" summary="客户销量图表">
+      <created>1596084352418</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1596084352418</updated>
+    </task>
+    <task id="LOCAL-00104" summary="客户销量图表">
+      <created>1596086925361</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1596086925362</updated>
+    </task>
+    <task id="LOCAL-00105" summary="客户销量图表">
+      <created>1596093881570</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1596093881570</updated>
+    </task>
+    <task id="LOCAL-00106" summary="客户销量图表">
+      <created>1596100729015</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1596100729015</updated>
+    </task>
+    <task id="LOCAL-00107" summary="客户关联主体，信息同步更新">
+      <created>1596596988724</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1596596988726</updated>
+    </task>
+    <task id="LOCAL-00108" summary="客户销量图表">
+      <created>1596683383692</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1596683383692</updated>
+    </task>
+    <task id="LOCAL-00109" summary="客户销量图表">
+      <created>1596791972514</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1596791972515</updated>
+    </task>
+    <task id="LOCAL-00110" summary="客户合并时间隔发消息">
+      <created>1597897633858</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1597897633859</updated>
+    </task>
+    <task id="LOCAL-00111" summary="客户合并时间隔发消息">
+      <created>1598166110409</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1598166110410</updated>
+    </task>
+    <task id="LOCAL-00112" summary="客户合并">
+      <created>1598168276085</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1598168276085</updated>
+    </task>
+    <task id="LOCAL-00113" summary="客户合并">
+      <created>1598318799895</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1598318799896</updated>
+    </task>
+    <task id="LOCAL-00114" summary="客户销量图表--区域销量改为三位小数">
+      <created>1598347053879</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1598347053879</updated>
+    </task>
+    <task id="LOCAL-00115" summary="客户合并">
+      <created>1598603946706</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1598603946707</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.客户更新&#10;2.crm超期未提" />
+    <MESSAGE value="crm销售绩效提成" />
+    <MESSAGE value="新绩效加字段" />
+    <MESSAGE value="crm超期未提字段更新" />
+    <MESSAGE value="crm绩效" />
+    <MESSAGE value="客户评估 主营业务" />
+    <MESSAGE value="crm超期未提fix" />
+    <MESSAGE value="crm超期未提UTF-8" />
+    <MESSAGE value="新增的单据，开单时间在90天内才改为正式客户" />
+    <MESSAGE value="crm新绩效明细" />
+    <MESSAGE value="销售新增客户明细表" />
+    <MESSAGE value="crm新绩效" />
+    <MESSAGE value="crm超期未提权限" />
+    <MESSAGE value="crm客户合并取 老客户，起始时间取早的" />
+    <MESSAGE value="crm超期未提" />
+    <MESSAGE value="修改客户关联主体写入修改记录" />
+    <MESSAGE value="修改账号fix" />
+    <MESSAGE value="1.crm记录首次开单时间&#10;2.crm超期未提" />
+    <MESSAGE value="crm客户地区取县级市" />
+    <MESSAGE value="crm特殊权限" />
+    <MESSAGE value="客户关联主体，信息同步更新" />
+    <MESSAGE value="客户销量图表" />
+    <MESSAGE value="客户合并时间隔发消息" />
+    <MESSAGE value="客户销量图表--区域销量改为三位小数" />
+    <MESSAGE value="客户合并" />
+    <option name="LAST_COMMIT_MESSAGE" value="客户合并" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="417" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594089962940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="417" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594089962940" />
+    <state x="747" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1595032162652">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="747" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595032162652" />
+    <state x="577" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594953265303">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="577" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594953265303" />
+    <state x="671" y="145" key="#crmserver_[bootRun]" timestamp="1596183109004">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="671" y="145" key="#crmserver_[bootRun]/0.0.1920.1040@0.0.1920.1040" timestamp="1596183109004" />
+    <state x="671" y="145" key="#crmserver_[war]" timestamp="1594601439918">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="671" y="145" key="#crmserver_[war]/0.0.1920.1040@0.0.1920.1040" timestamp="1594601439918" />
+    <state x="436" y="145" width="1157" height="680" key="#xdebugger.evaluate" timestamp="1596682749507">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="436" y="145" width="1157" height="680" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1596682749507" />
+    <state x="706" y="411" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1592009680993">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="706" y="411" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1592009680993" />
+    <state x="242" y="138" width="1077" height="855" key="CommitChangelistDialog2" timestamp="1598603945831">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="242" y="138" width="1077" height="855" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598603945831" />
+    <state width="978" height="466" key="DebuggerActiveHint" timestamp="1596682723714">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="978" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1596682723714" />
+    <state x="137" y="85" width="1536" height="832" key="DiffContextDialog" timestamp="1596614208162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="137" y="85" width="1536" height="832" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596614208162" />
+    <state x="697" y="280" key="EnvironmentVariablesDialog" timestamp="1591926135884">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="697" y="280" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591926135884" />
+    <state x="743" y="260" key="FileChooserDialogImpl" timestamp="1598699008392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598699008392" />
+    <state width="1860" height="218" key="GridCell.Tab.0.bottom" timestamp="1598347055695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598347055695" />
+    <state width="1860" height="218" key="GridCell.Tab.0.center" timestamp="1598347055695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598347055695" />
+    <state width="1860" height="218" key="GridCell.Tab.0.left" timestamp="1598347055695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598347055695" />
+    <state width="1860" height="218" key="GridCell.Tab.0.right" timestamp="1598347055695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598347055695" />
+    <state width="1860" height="218" key="GridCell.Tab.1.bottom" timestamp="1598347055696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="218" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598347055696" />
+    <state width="1860" height="218" key="GridCell.Tab.1.center" timestamp="1598347055696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="218" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598347055696" />
+    <state width="1860" height="218" key="GridCell.Tab.1.left" timestamp="1598347055695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="218" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598347055695" />
+    <state width="1860" height="218" key="GridCell.Tab.1.right" timestamp="1598347055696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="218" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598347055696" />
+    <state x="187" y="85" key="MergeDialog" timestamp="1590464178209">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="187" y="85" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590464178209" />
+    <state x="672" y="234" key="MultipleFileMergeDialog" timestamp="1590464178214">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="234" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590464178214" />
+    <state x="668" y="229" key="RollbackChangesDialog" timestamp="1594265229913">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="229" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594265229913" />
+    <state x="305" y="292" key="SettingsEditor" timestamp="1597136631214">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="305" y="292" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597136631214" />
+    <state x="680" y="253" key="VcsDiffUtil.ChangesDialog" timestamp="1597397488422">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="680" y="253" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597397488422" />
+    <state x="103" y="100" width="1720" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1597397268876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="103" y="100" width="1720" height="840" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597397268876" />
+    <state x="103" y="100" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1596086744172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="103" y="100" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596086744172" />
+    <state x="776" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598603901221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598603901221" />
+    <state x="639" y="251" width="647" height="538" key="find.popup" timestamp="1598172758982">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="639" y="251" width="647" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598172758982" />
+    <state x="800" y="399" key="org.jetbrains.idea.svn.history.SvnEditCommitMessageDialog" timestamp="1595290892821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="800" y="399" key="org.jetbrains.idea.svn.history.SvnEditCommitMessageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595290892821" />
+    <state x="713" y="221" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1590652936147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="713" y="221" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590652936147" />
+    <state x="619" y="235" key="run.anything.popup" timestamp="1595809531300">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="619" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595809531300" />
+    <state x="619" y="162" width="672" height="684" key="search.everywhere.popup" timestamp="1598164159640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="619" y="162" width="672" height="684" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598164159640" />
+    <state x="509" y="163" key="svn.copyDialog" timestamp="1590653010968">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="509" y="163" key="svn.copyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590653010968" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/crm_server$crmserver__bootRun_.ic" NAME="crmserver [bootRun] Coverage Results" MODIFIED="1594258271284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

@@ -1,0 +1,147 @@
+buildscript {
+	ext {
+		kotlinVersion = '1.2.41'
+		springBootVersion = '1.5.14.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+		classpath("org.jetbrains.kotlin:kotlin-noarg:${kotlinVersion}")
+		classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlinVersion}")
+		classpath("org.jetbrains.kotlin:kotlin-allopen:${kotlinVersion}")
+		classpath("com.bmuschko:gradle-cargo-plugin:2.3")
+		classpath("se.transmode.gradle:gradle-docker:1.2")
+	}
+}
+
+apply plugin: 'kotlin'
+apply plugin: 'kotlin-spring'
+apply plugin: 'kotlin-jpa'
+apply plugin: 'idea'
+apply plugin: 'war'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'com.bmuschko.cargo'
+apply plugin: 'docker'
+
+group = 'org.zhd.crm.server'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+compileKotlin {
+	kotlinOptions {
+		freeCompilerArgs = ["-Xjsr305=strict"]
+		jvmTarget = "1.8"
+	}
+}
+compileTestKotlin {
+	kotlinOptions {
+		freeCompilerArgs = ["-Xjsr305=strict"]
+		jvmTarget = "1.8"
+	}
+}
+
+jar {
+	baseName 'crm-server'
+	version '0.0.1'
+}
+
+gradle.taskGraph.whenReady {
+	tasks.each { task ->
+		if (task.name.contains("test"))
+		{
+			task.enabled = false
+		}
+	}
+}
+
+docker {
+}
+
+task buildDocker(type: Docker, dependsOn: build) {
+	applicationName = jar.baseName
+	tagVersion = jar.version
+	dockerfile = file('dockerfile')
+	doFirst {
+		copy {
+			from jar
+			into stageDir
+		}
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+cargo {
+	containerId = 'tomcat8x'
+	port = 8080
+
+	deployable  {
+		context = 'crmserver'
+	}
+	remote {
+//        本地测试
+//        hostname = '127.0.0.1'
+//        username = 'admin'
+//        password = 'admin123'
+//        测试配置
+		hostname = '192.168.80.200'
+//        预上线环境
+//		hostname = '192.168.80.91'
+		username = 'admin'
+		password = 'admin123'
+	}
+	local {
+		homeDir = file('/Users/yanjun/ide/tomcat8')
+	}
+}
+
+
+dependencies {
+	def cargoVersion = '1.4.5'
+	cargo "org.codehaus.cargo:cargo-core-uberjar:$cargoVersion",
+			"org.codehaus.cargo:cargo-ant:$cargoVersion"
+	compile('org.springframework.boot:spring-boot-starter-data-jpa')
+	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.springframework.boot:spring-boot-starter-aop')
+	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
+	// 阿里druid
+//	compile('com.alibaba:druid-spring-boot-starter:1.1.7')
+//	compile("com.github.jnr:jnr-ffi:2.1.9")
+	// activemq
+	compile('org.springframework.boot:spring-boot-starter-activemq')
+    // dubbo
+	compile('io.dubbo.springboot:spring-boot-starter-dubbo:1.0.0')
+	compile('com.alibaba:dubbo:2.8.4') {
+		exclude module: 'org.springframework.spring'
+	}
+    compile "com.xyscm:common-api:0.0.1-SNAPSHOT"
+//    compile "com.xyscm:common-api:0.0.7"
+	compile "com.xyscm:erpLdp-api:0.0.1-SNAPSHOT"
+//    compile "com.xyscm:erpLdp-api:0.0.25"
+	// oracle jar
+    compile('ojdbc:ojdbc6:11.2.0.4.0')
+	// qiniu sdk
+	compile('com.qiniu:qiniu-java-sdk:7.2.28')
+    // 图片压缩
+	compile('net.coobird:thumbnailator:0.4.8')
+    // 汉子首字母排序
+    compile('com.belerweb:pinyin4j:2.5.0')
+    //websocket
+    compile('org.springframework.boot:spring-boot-starter-websocket')
+    // fastjson
+    compile('com.alibaba:fastjson:1.2.5')
+	// 文件导入导出插件
+	compile('org.apache.poi:poi:3.17')
+	// swagger
+	compile('io.springfox:springfox-swagger2:2.9.2')
+	compile('io.springfox:springfox-swagger-ui:2.9.2')
+	compile('com.fasterxml.jackson.module:jackson-module-kotlin')
+	compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
+	compile("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
+	runtime('org.springframework.boot:spring-boot-devtools')
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+}
